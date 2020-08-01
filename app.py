@@ -25,11 +25,11 @@ def index():
     if request.method == 'POST':
         try:
 
-            reddit = pr.Reddit(client_id="MtYbAsq3YU1Fyg",
-                               client_secret="PEeDjMUMGgkTAj4tvsE1aorG2ds",
-                               user_agent="Flare_Detection",
-                               username='devil2474',
-                               password='mani360@')
+            reddit = pr.Reddit(client_id=used yours,
+                               client_secret=used yours,
+                               user_agent=used yours,
+                               username=uesd yours,
+                               password=used yours)
             print(reddit.read_only)
             reddit.read_only = True
             url = (request.form['message'])
