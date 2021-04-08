@@ -25,11 +25,11 @@ def index():
     if request.method == 'POST':
         try:
 
-            reddit = pr.Reddit(client_id=used yours,
-                               client_secret=used yours,
-                               user_agent=used yours,
-                               username=uesd yours,
-                               password=used yours)
+            reddit = pr.Reddit(client_id='PQko50TYNqAFlw',
+                               client_secret='hwleR9jXMUQEgG_zsToe3CIWFPSKVw',
+                               user_agent='https://reditflair.herokuapp.com/',
+                               username='mani2474695',
+                               password='mani360@')
             print(reddit.read_only)
             reddit.read_only = True
             url = (request.form['message'])
