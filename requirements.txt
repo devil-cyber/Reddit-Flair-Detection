@@ -35,7 +35,7 @@ threadpoolctl==2.1.0
 toml==0.10.1
 tqdm==4.48.0
 update-checker==0.17
-urllib3==1.25.10
+urllib3==1.26.5
 websocket-client==0.57.0
 Werkzeug==0.15.5
 wincertstore==0.2
